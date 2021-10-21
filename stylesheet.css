@@ -1,0 +1,83 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    padding: 16px;
+    border-left: 3px solid black;
+    border-right: 3px solid black;
+}
+li:hover {
+background-color: blue;
+color: black;
+}
+.introduction {
+    font-size: 2rem;
+    text-align: center;
+    color: gray;
+
+}
+
+.navlinks {
+    background-color: lightblue;
+    color: white;
+    text-align: center;
+    font-size: 2rem;
+}
+
+
+
+
+.imagebanner {
+    padding: 50px 0;
+    background-image: url("EPIC_PHOTOS/this wont work.jpg");
+     border: 5px solid black;
+}
+
+h2 {
+    text-align: center;
+    color: white;
+    background-color: black;
+    font-size: 2rem;
+}
+.ourgames {
+    margin: 32px;
+    text-align: center;
+}
+
+img {
+    width: 300px;
+    height: 200px;
+    border: 5px solid black;
+}
+
+@media screen and (min-width: 700px) {
+    ul {
+        text-align: right;
+    }
+
+    li {
+        display: inline-block;
+        border-bottom: 0px;
+        border-left: 1px solid black;
+    }
+
+    .game {
+        width: 33%;
+        display: inline-block;
+        vertical-align: top;
+        font-size: 48px;
+    
+        }
+}
+
+.gamestatement {
+    font-size: 2.5rem;
+    text-align: center;
+}
